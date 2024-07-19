@@ -1,0 +1,2 @@
+# Maxxine
+.netCore Template
