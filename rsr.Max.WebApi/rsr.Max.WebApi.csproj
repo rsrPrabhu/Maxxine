@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Cortside.AspNetCore" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.AspNetCore.AccessControl" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.AspNetCore.ApplicationInsights" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.AspNetCore.Common" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.AspNetCore.EntityFramework" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.AspNetCore.Swagger" Version="6.3.212-develop" />
+    <PackageReference Include="Cortside.Common.Correlation" Version="6.3.413-develop" />
+    <PackageReference Include="Cortside.Common.Hosting" Version="6.3.413-develop" />
+    <PackageReference Include="Cortside.Health" Version="6.0.86" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.15" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mappers\" />
+    <Folder Include="Models\Requests\" />
+    <Folder Include="Models\Responses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\rsr.Max.Data\rsr.Max.Data.csproj" />
+  </ItemGroup>
+
+</Project>
