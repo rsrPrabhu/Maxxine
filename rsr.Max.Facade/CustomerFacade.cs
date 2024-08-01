@@ -4,6 +4,7 @@ using Cortside.AspNetCore.Common.Paging;
 using rsr.Max.Dto;
 using Cortside.AspNetCore.EntityFramework;
 using rsr.Max.DomainService;
+using rsr.Max.Facade.Mappers;
 
 namespace rsr.Max.Facade;
 
