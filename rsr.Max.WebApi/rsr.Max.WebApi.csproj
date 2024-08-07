@@ -21,6 +21,7 @@
     <PackageReference Include="Cortside.Common.Security" Version="6.3.413-develop" />
     <PackageReference Include="Cortside.Health" Version="6.0.86" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.15" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
   <ItemGroup>
