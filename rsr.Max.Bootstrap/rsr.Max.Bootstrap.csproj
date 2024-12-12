@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cortside.Common.BootStrap" Version="6.3.413-develop" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\rsr.Max.Hosting\rsr.Max.Hosting.csproj" />
+    </ItemGroup>
+
+</Project>

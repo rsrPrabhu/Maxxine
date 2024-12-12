@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cortside.AspNetCore.Common" Version="6.3.212-develop" />
+      <PackageReference Include="Cortside.AspNetCore.EntityFramework" Version="6.3.212-develop" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\rsr.Max.DomainService\rsr.Max.DomainService.csproj" />
+      <ProjectReference Include="..\rsr.Max.Dto\rsr.Max.Dto.csproj" />
+    </ItemGroup>
+
+</Project>
